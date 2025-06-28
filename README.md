@@ -62,6 +62,7 @@ app/
 ├── services/
 │   ├── embedder.py         # Embedding service (e.g., LangChain)
 │   ├── gemini.py           # Gemini API integration
+init_db.py                  # Init DB
 main.py                     # FastAPI entry point
 Dockerfile                  # App container
 docker-compose.yml          # DB + app orchestration
